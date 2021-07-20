@@ -11,9 +11,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        configureHomeServicesCard()
+    }
+    
+    func configureHomeServicesCard() {
+        let vc = HomeServicesViewController()
+        vc.view.backgroundColor = .clear
+        vc.modalPresentationStyle = .overCurrentContext
+        present(vc, animated: false, completion: nil)
+    }
 }
-

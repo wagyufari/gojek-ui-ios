@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F8032C026A4DFD3005AE755 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8032BF26A4DFD3005AE755 /* CGFloat+Extension.swift */; };
+		3F8032C226A4E5BE005AE755 /* ValueAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8032C126A4E5BE005AE755 /* ValueAnimator.swift */; };
+		3F8032C526A4E68D005AE755 /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8032C426A4E68D005AE755 /* NSLayoutConstraint+Extension.swift */; };
 		3FB3E5D526A3293600732EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3E5D426A3293600732EC0 /* AppDelegate.swift */; };
 		3FB3E5D726A3293600732EC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3E5D626A3293600732EC0 /* SceneDelegate.swift */; };
 		3FB3E5D926A3293600732EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3E5D826A3293600732EC0 /* ViewController.swift */; };
@@ -15,6 +18,18 @@
 		3FB3E5E126A3293700732EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB3E5DF26A3293700732EC0 /* LaunchScreen.storyboard */; };
 		3FB3E5EC26A3293700732EC0 /* GojekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3E5EB26A3293700732EC0 /* GojekTests.swift */; };
 		3FB3E5F726A3293700732EC0 /* GojekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3E5F626A3293700732EC0 /* GojekUITests.swift */; };
+		3FB3E60526A32C3E00732EC0 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3E60426A32C3E00732EC0 /* UIView+Extension.swift */; };
+		3FC5CB4E26A576A700F0ED05 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5CB4D26A576A700F0ED05 /* UIColor+Extension.swift */; };
+		3FC5CB5026A577C800F0ED05 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5CB4F26A577C800F0ED05 /* Color+Hex.swift */; };
+		3FC5CB5226A5806C00F0ED05 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5CB5126A5806C00F0ED05 /* ServicesView.swift */; };
+		3FC5CB5626A5870500F0ED05 /* Apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5CB5526A5870500F0ED05 /* Apply.swift */; };
+		3FC5CB5826A5A35700F0ED05 /* UIView+GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5CB5726A5A35700F0ED05 /* UIView+GestureRecognizer.swift */; };
+		3FC5CB5A26A5AA6E00F0ED05 /* GestureRecognizer+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5CB5926A5AA6E00F0ED05 /* GestureRecognizer+Helper.swift */; };
+		3FC5CB6B26A5AE7400F0ED05 /* ServicesPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC5CB6A26A5AE7400F0ED05 /* ServicesPageView.swift */; };
+		3FC5CB6F26A5B07900F0ED05 /* ServicesPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC5CB6E26A5B07900F0ED05 /* ServicesPageView.xib */; };
+		3FE7CDC926A64692000A4E45 /* ServicesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7CDC826A64692000A4E45 /* ServicesView.xib */; };
+		3FE7CDCC26A646B7000A4E45 /* HomeServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE7CDCA26A646B7000A4E45 /* HomeServicesViewController.swift */; };
+		3FE7CDCD26A646B7000A4E45 /* HomeServicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7CDCB26A646B7000A4E45 /* HomeServicesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F8032BF26A4DFD3005AE755 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		3F8032C126A4E5BE005AE755 /* ValueAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueAnimator.swift; sourceTree = "<group>"; };
+		3F8032C426A4E68D005AE755 /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
 		3FB3E5D126A3293600732EC0 /* Gojek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gojek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB3E5D426A3293600732EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB3E5D626A3293600732EC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,18 @@
 		3FB3E5F226A3293700732EC0 /* GojekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GojekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB3E5F626A3293700732EC0 /* GojekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GojekUITests.swift; sourceTree = "<group>"; };
 		3FB3E5F826A3293700732EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB3E60426A32C3E00732EC0 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3FC5CB4D26A576A700F0ED05 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		3FC5CB4F26A577C800F0ED05 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		3FC5CB5126A5806C00F0ED05 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		3FC5CB5526A5870500F0ED05 /* Apply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apply.swift; sourceTree = "<group>"; };
+		3FC5CB5726A5A35700F0ED05 /* UIView+GestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+GestureRecognizer.swift"; sourceTree = "<group>"; };
+		3FC5CB5926A5AA6E00F0ED05 /* GestureRecognizer+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GestureRecognizer+Helper.swift"; sourceTree = "<group>"; };
+		3FC5CB6A26A5AE7400F0ED05 /* ServicesPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesPageView.swift; sourceTree = "<group>"; };
+		3FC5CB6E26A5B07900F0ED05 /* ServicesPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServicesPageView.xib; sourceTree = "<group>"; };
+		3FE7CDC826A64692000A4E45 /* ServicesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServicesView.xib; sourceTree = "<group>"; };
+		3FE7CDCA26A646B7000A4E45 /* HomeServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServicesViewController.swift; sourceTree = "<group>"; };
+		3FE7CDCB26A646B7000A4E45 /* HomeServicesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeServicesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +106,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F8032C326A4E678005AE755 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3FB3E60426A32C3E00732EC0 /* UIView+Extension.swift */,
+				3F8032BF26A4DFD3005AE755 /* CGFloat+Extension.swift */,
+				3F8032C426A4E68D005AE755 /* NSLayoutConstraint+Extension.swift */,
+				3FC5CB4D26A576A700F0ED05 /* UIColor+Extension.swift */,
+				3FC5CB4F26A577C800F0ED05 /* Color+Hex.swift */,
+				3FC5CB5526A5870500F0ED05 /* Apply.swift */,
+				3FC5CB5726A5A35700F0ED05 /* UIView+GestureRecognizer.swift */,
+				3FC5CB5926A5AA6E00F0ED05 /* GestureRecognizer+Helper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		3FB3E5C826A3293500732EC0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +144,7 @@
 		3FB3E5D326A3293600732EC0 /* Gojek */ = {
 			isa = PBXGroup;
 			children = (
+				3FC5CB5B26A5AB5700F0ED05 /* UI */,
 				3FB3E5D426A3293600732EC0 /* AppDelegate.swift */,
 				3FB3E5D626A3293600732EC0 /* SceneDelegate.swift */,
 				3FB3E5D826A3293600732EC0 /* ViewController.swift */,
@@ -106,6 +152,8 @@
 				3FB3E5DD26A3293700732EC0 /* Assets.xcassets */,
 				3FB3E5DF26A3293700732EC0 /* LaunchScreen.storyboard */,
 				3FB3E5E226A3293700732EC0 /* Info.plist */,
+				3F8032C126A4E5BE005AE755 /* ValueAnimator.swift */,
+				3F8032C326A4E678005AE755 /* Extensions */,
 			);
 			path = Gojek;
 			sourceTree = "<group>";
@@ -126,6 +174,27 @@
 				3FB3E5F826A3293700732EC0 /* Info.plist */,
 			);
 			path = GojekUITests;
+			sourceTree = "<group>";
+		};
+		3FC5CB5B26A5AB5700F0ED05 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5CB5C26A5AB5E00F0ED05 /* Home */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3FC5CB5C26A5AB5E00F0ED05 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3FC5CB6A26A5AE7400F0ED05 /* ServicesPageView.swift */,
+				3FC5CB6E26A5B07900F0ED05 /* ServicesPageView.xib */,
+				3FE7CDC826A64692000A4E45 /* ServicesView.xib */,
+				3FC5CB5126A5806C00F0ED05 /* ServicesView.swift */,
+				3FE7CDCA26A646B7000A4E45 /* HomeServicesViewController.swift */,
+				3FE7CDCB26A646B7000A4E45 /* HomeServicesViewController.xib */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +300,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE7CDC926A64692000A4E45 /* ServicesView.xib in Resources */,
 				3FB3E5E126A3293700732EC0 /* LaunchScreen.storyboard in Resources */,
+				3FC5CB6F26A5B07900F0ED05 /* ServicesPageView.xib in Resources */,
 				3FB3E5DE26A3293700732EC0 /* Assets.xcassets in Resources */,
 				3FB3E5DC26A3293600732EC0 /* Main.storyboard in Resources */,
+				3FE7CDCD26A646B7000A4E45 /* HomeServicesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +330,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC5CB5826A5A35700F0ED05 /* UIView+GestureRecognizer.swift in Sources */,
+				3F8032C226A4E5BE005AE755 /* ValueAnimator.swift in Sources */,
+				3FC5CB5626A5870500F0ED05 /* Apply.swift in Sources */,
+				3FC5CB5226A5806C00F0ED05 /* ServicesView.swift in Sources */,
+				3F8032C526A4E68D005AE755 /* NSLayoutConstraint+Extension.swift in Sources */,
 				3FB3E5D926A3293600732EC0 /* ViewController.swift in Sources */,
+				3FC5CB4E26A576A700F0ED05 /* UIColor+Extension.swift in Sources */,
 				3FB3E5D526A3293600732EC0 /* AppDelegate.swift in Sources */,
+				3FE7CDCC26A646B7000A4E45 /* HomeServicesViewController.swift in Sources */,
+				3FC5CB5026A577C800F0ED05 /* Color+Hex.swift in Sources */,
+				3FB3E60526A32C3E00732EC0 /* UIView+Extension.swift in Sources */,
 				3FB3E5D726A3293600732EC0 /* SceneDelegate.swift in Sources */,
+				3F8032C026A4DFD3005AE755 /* CGFloat+Extension.swift in Sources */,
+				3FC5CB5A26A5AA6E00F0ED05 /* GestureRecognizer+Helper.swift in Sources */,
+				3FC5CB6B26A5AE7400F0ED05 /* ServicesPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +523,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E3E3255CM9;
 				INFOPLIST_FILE = Gojek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +531,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mayburger.Gojek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,6 +543,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E3E3255CM9;
 				INFOPLIST_FILE = Gojek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +551,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mayburger.Gojek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

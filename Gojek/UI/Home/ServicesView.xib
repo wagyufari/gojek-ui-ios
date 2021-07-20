@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ServicesView" customModule="Gojek" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="r8c-pz-7cq">
+                    <rect key="frame" x="32" y="44" width="350" height="802"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LYm-zL-ZGt">
+                            <rect key="frame" x="0.0" y="0.0" width="63.5" height="802"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="X4Q-ym-jLn">
+                                    <rect key="frame" x="13" y="382" width="38" height="38"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="38" id="gpN-d0-Puu"/>
+                                        <constraint firstAttribute="height" constant="38" id="wTe-oq-xy6"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GoFood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Egb-mZ-FTH">
+                                    <rect key="frame" x="6.5" y="428" width="51" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="X4Q-ym-jLn" firstAttribute="centerY" secondItem="LYm-zL-ZGt" secondAttribute="centerY" id="HIG-LY-oG9"/>
+                                <constraint firstItem="X4Q-ym-jLn" firstAttribute="centerX" secondItem="LYm-zL-ZGt" secondAttribute="centerX" id="i5Q-df-tVf"/>
+                                <constraint firstItem="Egb-mZ-FTH" firstAttribute="top" secondItem="X4Q-ym-jLn" secondAttribute="bottom" constant="8" id="kI0-Wr-pvn"/>
+                                <constraint firstItem="Egb-mZ-FTH" firstAttribute="centerX" secondItem="LYm-zL-ZGt" secondAttribute="centerX" id="ziS-nd-aHJ"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8fY-Cx-oR3">
+                            <rect key="frame" x="95.5" y="0.0" width="63.5" height="802"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ffy-07-iZj">
+                                    <rect key="frame" x="13" y="382" width="38" height="38"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="38" id="IgV-U8-k2q"/>
+                                        <constraint firstAttribute="width" constant="38" id="kBc-9G-1xh"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GoFood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYz-dS-ZHo">
+                                    <rect key="frame" x="6.5" y="428" width="51" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Ffy-07-iZj" firstAttribute="centerY" secondItem="8fY-Cx-oR3" secondAttribute="centerY" id="3GE-Rl-xGD"/>
+                                <constraint firstItem="aYz-dS-ZHo" firstAttribute="top" secondItem="Ffy-07-iZj" secondAttribute="bottom" constant="8" id="KGI-Zq-Etb"/>
+                                <constraint firstItem="Ffy-07-iZj" firstAttribute="centerX" secondItem="8fY-Cx-oR3" secondAttribute="centerX" id="VUK-1q-YiI"/>
+                                <constraint firstItem="aYz-dS-ZHo" firstAttribute="centerX" secondItem="8fY-Cx-oR3" secondAttribute="centerX" id="nNX-nt-zt9"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nCS-ff-b8d">
+                            <rect key="frame" x="191" y="0.0" width="63.5" height="802"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j7V-hp-HiX">
+                                    <rect key="frame" x="13" y="382" width="38" height="38"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="38" id="5ON-wc-Pco"/>
+                                        <constraint firstAttribute="height" constant="38" id="NBj-tP-gbL"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GoFood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8j-bz-5Gw">
+                                    <rect key="frame" x="6.5" y="428" width="51" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="j7V-hp-HiX" firstAttribute="centerY" secondItem="nCS-ff-b8d" secondAttribute="centerY" id="NPo-hc-Hur"/>
+                                <constraint firstItem="j7V-hp-HiX" firstAttribute="centerX" secondItem="nCS-ff-b8d" secondAttribute="centerX" id="VyR-wx-Dzi"/>
+                                <constraint firstItem="R8j-bz-5Gw" firstAttribute="top" secondItem="j7V-hp-HiX" secondAttribute="bottom" constant="8" id="exI-gj-OLg"/>
+                                <constraint firstItem="R8j-bz-5Gw" firstAttribute="centerX" secondItem="nCS-ff-b8d" secondAttribute="centerX" id="hpX-pO-jhy"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dPN-RM-3fR">
+                            <rect key="frame" x="286.5" y="0.0" width="63.5" height="802"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gCZ-ta-vtC">
+                                    <rect key="frame" x="13" y="382" width="38" height="38"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="38" id="G2E-p2-mJ6"/>
+                                        <constraint firstAttribute="height" constant="38" id="xgo-69-NoN"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GoFood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVa-1A-AmY">
+                                    <rect key="frame" x="6.5" y="428" width="51" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="gCZ-ta-vtC" firstAttribute="centerX" secondItem="dPN-RM-3fR" secondAttribute="centerX" id="chd-do-oSQ"/>
+                                <constraint firstItem="gCZ-ta-vtC" firstAttribute="centerY" secondItem="dPN-RM-3fR" secondAttribute="centerY" id="ffs-og-F8b"/>
+                                <constraint firstItem="kVa-1A-AmY" firstAttribute="top" secondItem="gCZ-ta-vtC" secondAttribute="bottom" constant="8" id="mee-WU-mfg"/>
+                                <constraint firstItem="kVa-1A-AmY" firstAttribute="centerX" secondItem="dPN-RM-3fR" secondAttribute="centerX" id="oYX-wh-0dD"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="r8c-pz-7cq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Ahc-Xb-qVb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="r8c-pz-7cq" secondAttribute="bottom" constant="16" id="Koe-sz-fy6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="r8c-pz-7cq" secondAttribute="trailing" constant="32" id="Tja-TC-8db"/>
+                <constraint firstItem="r8c-pz-7cq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="32" id="kfp-BB-7jl"/>
+            </constraints>
+            <connections>
+                <outlet property="imageCar" destination="Ffy-07-iZj" id="wTH-a8-Mof"/>
+                <outlet property="imageFood" destination="j7V-hp-HiX" id="cig-eL-Prj"/>
+                <outlet property="imageRide" destination="X4Q-ym-jLn" id="6aC-D6-DYt"/>
+                <outlet property="imageShop" destination="gCZ-ta-vtC" id="NKJ-3f-GyK"/>
+                <outlet property="labelCar" destination="aYz-dS-ZHo" id="vJC-Uz-BOw"/>
+                <outlet property="labelFood" destination="R8j-bz-5Gw" id="nbm-9p-Qlu"/>
+                <outlet property="labelRide" destination="Egb-mZ-FTH" id="8Ug-fQ-EXk"/>
+                <outlet property="labelShop" destination="kVa-1A-AmY" id="lMg-k0-cRk"/>
+                <outlet property="stackServices" destination="r8c-pz-7cq" id="8y6-Fd-SX8"/>
+                <outlet property="viewCar" destination="8fY-Cx-oR3" id="BGn-8T-pIA"/>
+                <outlet property="viewFood" destination="nCS-ff-b8d" id="ECE-dB-RfG"/>
+                <outlet property="viewRide" destination="LYm-zL-ZGt" id="0Jb-99-3iF"/>
+                <outlet property="viewShop" destination="dPN-RM-3fR" id="0Yu-yq-Vki"/>
+            </connections>
+            <point key="canvasLocation" x="-97" y="77"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
